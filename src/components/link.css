@@ -21,7 +21,7 @@
   }
 
   .link:disabled,
-  .link--disabled {
+  .link[data-disabled]  {
     opacity: 0.6;
     pointer-events: none;
     box-shadow: none;
@@ -78,7 +78,6 @@
   }
 
   .link--xl {
-    /* height: var(--height-ui-xl); */
     font-size: var(--font-size-xl);
     padding: var(--padding-ui-xl);
     gap: var(--gap-ui-xl);
@@ -89,9 +88,9 @@
   }
 
   .link--font-brand {
-    color: var(--color-contrast-brand);
+    color: var(--color-contrast-brand-2);
   }
 
   .link--font-alert {
-    color: var(--color-contrast-alert);
+    color: var(--color-contrast-alert-2);
 }

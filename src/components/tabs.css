@@ -73,7 +73,7 @@
     background-color: var(--color-ui-2);
   }
   .tabs [data-scope="tabs"][data-part="trigger"]:disabled,
-  .tabs [data-scope="tabs"][data-part="trigger"]--disabled {
+  .tabs [data-scope="tabs"][data-part="trigger"][data-disabled]  {
     opacity: 0.6;
     pointer-events: none;
     box-shadow: none;
