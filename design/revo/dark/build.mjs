@@ -61,6 +61,7 @@ async function semantic() {
             destination: `revo/dark/${set}.css`,
             format: 'css/variables',
             options: {
+              
               outputReferences: true
             },
             filter: token => token.filePath.endsWith(`${set}.json`)
@@ -88,6 +89,7 @@ async function global() {
             destination: `${set}.css`,
             format: 'css/variables',
             options: {
+              
               outputReferences: true
             },
             filter: token => token.filePath.endsWith(`${set}.json`)

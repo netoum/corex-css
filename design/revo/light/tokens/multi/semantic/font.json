@@ -2,7 +2,7 @@
   "font": {
     "family": {
       "default": {
-        "value": "{font.outfit}",
+        "value": "{font.karla}",
         "type": "fontFamily"
       },
       "code": {
@@ -12,11 +12,11 @@
     },
     "size": {
       "default": {
-        "value": "{font.size.5}",
+        "value": "{font.size.4}",
         "type": "fontSize"
       },
       "sm": {
-        "value": "{font.size.4}",
+        "value": "{font.size.3}",
         "type": "fontSize"
       },
       "lg": {
@@ -30,7 +30,7 @@
     },
     "line-height": {
       "default": {
-        "value": "{font.line-height.4}",
+        "value": "{font.line-height.3}",
         "type": "lineHeight"
       }
     }

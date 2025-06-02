@@ -60,7 +60,9 @@ async function semantic() {
           files: [{
             destination: `neo/dark/${set}.css`,
             format: 'css/variables',
-            options: {              outputReferences: true
+            options: {              
+              
+              outputReferences: true
             },
             filter: token => token.filePath.endsWith(`${set}.json`)
           }]
@@ -86,7 +88,9 @@ async function global() {
           files: [{
             destination: `${set}.css`,
             format: 'css/variables',
-            options: {              outputReferences: true
+            options: {           
+              
+              outputReferences: true
             },
             filter: token => token.filePath.endsWith(`${set}.json`)
           }]
