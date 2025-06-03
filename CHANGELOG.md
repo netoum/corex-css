@@ -1,5 +1,16 @@
 # 📦 Changelog – @netoum/corex-css
 
+## [0.0.3] – 2025-06-04
+
+### ✨ Added
+
+- Implementations of the following components:
+  - Typo
+  
+- Components sizing fixed
+- Component hidden state on page load fixed
+---
+
 ## [0.0.2] – 2025-06-02
 
 - Design Tokens fixes
