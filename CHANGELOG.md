@@ -1,14 +1,19 @@
 # 📦 Changelog – @netoum/corex-css
 
-## [0.0.3] – 2025-06-04
+## [0.0.3] – 2025-06-05
 
 ### ✨ Added
 
 - Implementations of the following components:
+  - Code
+  - Date Picker
+  - Scrollbar
+  - Timer
   - Typo
   
-- Components sizing fixed
-- Component hidden state on page load fixed
+- Fix Line Height semantic tokens
+- Fix components sizing
+- 
 ---
 
 ## [0.0.2] – 2025-06-02

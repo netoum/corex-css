@@ -1,5 +1,5 @@
 .tree-view [data-part="root"] {
- display: none;
+  display: none;
 }
 
 .tree-view [data-scope="tree-view"][data-part="root"] {

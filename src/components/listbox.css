@@ -1,4 +1,4 @@
-.listbox [data-part="root"]{
+.listbox [data-part="root"] {
   outline: none;
   display: none;
 }
